@@ -11,6 +11,7 @@
 		B0244B292A398C480091CD35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0244B282A398C480091CD35 /* ContentView.swift */; };
 		B0244B2B2A398C480091CD35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0244B2A2A398C480091CD35 /* Assets.xcassets */; };
 		B0244B2E2A398C480091CD35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0244B2D2A398C480091CD35 /* Preview Assets.xcassets */; };
+		B0244B362A398E8E0091CD35 /* NameDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0244B352A398E8E0091CD35 /* NameDrop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B0244B282A398C480091CD35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0244B2A2A398C480091CD35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0244B2D2A398C480091CD35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0244B352A398E8E0091CD35 /* NameDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDrop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B0244B262A398C480091CD35 /* ThatsSoMetalApp.swift */,
 				B0244B282A398C480091CD35 /* ContentView.swift */,
+				B0244B342A398C9A0091CD35 /* NameDrop */,
 				B0244B2A2A398C480091CD35 /* Assets.xcassets */,
 				B0244B2C2A398C480091CD35 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				B0244B2D2A398C480091CD35 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0244B342A398C9A0091CD35 /* NameDrop */ = {
+			isa = PBXGroup;
+			children = (
+				B0244B352A398E8E0091CD35 /* NameDrop.swift */,
+			);
+			path = NameDrop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0244B362A398E8E0091CD35 /* NameDrop.swift in Sources */,
 				B0244B292A398C480091CD35 /* ContentView.swift in Sources */,
 				B0244B272A398C480091CD35 /* ThatsSoMetalApp.swift in Sources */,
 			);
